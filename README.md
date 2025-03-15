@@ -32,17 +32,17 @@ This project leverages the ESP32 microcontroller to create a web-based server fo
   - The ESP device connects to a WiFi network, enabling remote access to the web server.  
   - The IP address is displayed in the serial monitor for easy access.  
 - **Asynchronous Web Server**:  
-  - Utilizes the `ESPAsyncWebServer` and `AsyncTCP` libraries for efficient handling of web requests.  
+  - Utilizes the ESPAsyncWebServer and AsyncTCP libraries for efficient handling of web requests.  
 - **Sensor Integration**:  
-  - DHT11 sensor data is read using the `DHT` library.  
+  - DHT11 sensor data is read using the DHT library.  
   - Light and IR sensor values are read via analog and digital pins, respectively.  
 - **LCD Display**:  
   - The 16x2 LCD, connected via I2C, shows temperature and humidity readings locally.  
 
 ## **Libraries Used**  
-- `DHT` for reading temperature and humidity from the DHT11 sensor.  
-- `LiquidCrystal_PCF8574` for controlling the I2C LCD.  
-- `ESPAsyncWebServer` and `AsyncTCP` for managing the asynchronous web server.  
+- DHT for reading temperature and humidity from the DHT11 sensor.  
+- LiquidCrystal_PCF8574 for controlling the I2C LCD.  
+- ESPAsyncWebServer and AsyncTCP for managing the web server.  
 
 ## **Setup Instructions**  
 1. **WiFi Configuration**:  
