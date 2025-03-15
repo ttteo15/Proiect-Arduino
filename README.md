@@ -46,7 +46,7 @@ This project leverages the ESP32 microcontroller to create a web-based server fo
 
 ## **Setup Instructions**  
 1. **WiFi Configuration**:  
-   - Update the `ssid` and `password` variables in the code with your WiFi credentials.  
+   - Update the 'ssid' and 'password' variables in the code with your WiFi credentials.  
 2. **Upload the Code**:  
    - Use Arduino IDE or PlatformIO to compile and upload the code to your ESP32/ESP8266.  
    - Ensure the correct board and port are selected.  
